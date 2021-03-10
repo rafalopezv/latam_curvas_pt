@@ -24,7 +24,7 @@ Sys.setlocale(locale = "es_ES.UTF-8")
 </h2>
 
 
-```{r, include=T, echo = F,  fig.height = 21, fig.width = 20}
+```{r, include=T, echo = F,  fig.height = 21, fig.width = 20, warning=FALSE}
 curva_confirmados
 ```
 <small><small><small>
@@ -37,7 +37,7 @@ Elaboração própria com base em dados da [Universidade Johns Hopkins](https://
     Novos casos de<span style = "color: #e61b72"><b> óbitos</b></span> por semana
 </h2>
 
-```{r, include=T, echo = F,  fig.height = 21, fig.width = 20}
+```{r, include=T, echo = F,  fig.height = 21, fig.width = 20, warning=FALSE}
 curva_fallecidos
 ```
 <small><small><small>
